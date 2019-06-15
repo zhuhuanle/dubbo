@@ -1,0 +1,6 @@
+INFO main com.alibaba.dubbo.common.logger.LoggerFactory - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+INFO main com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.6.4, current host: 192.168.92.1
+INFO main com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.6.4, current host: 192.168.92.1
+WARN main com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor -  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.atguigu.consumer.orderconsumer], dubbo version: 2.6.4, current host: 192.168.92.1
+INFO DubboShutdownHook com.alibaba.dubbo.config.DubboShutdownHook -  [DUBBO] Run shutdown hook now., dubbo version: 2.6.4, current host: 192.168.92.1
+INFO DubboShutdownHook com.alibaba.dubbo.registry.support.AbstractRegistryFactory -  [DUBBO] Close all registries [], dubbo version: 2.6.4, current host: 192.168.92.1

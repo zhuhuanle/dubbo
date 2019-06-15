@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-consumer" />
+        <module name="servicecloud" />
+        <module name="user-consuimer" />
+        <module name="user-inter" />
+        <module name="user-provide" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="order-consumer" target="1.8" />
+      <module name="servicecloud" target="1.7" />
+      <module name="user-consuimer" target="1.8" />
+      <module name="user-inter" target="1.7" />
+      <module name="user-provide" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
